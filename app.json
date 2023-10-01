@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/Icon_POS.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "name": "Project-Oversight",
+    "slug": "Project-Oversight",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Icon_POS.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Icon_POS.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.watchdogs1.newapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCv0JdNCgXTVLSoopO88cbDYhu6q-ON3f0"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "440dc4d2-e431-46fc-a5af-1d087feaaaad"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      }
+    }
+  }
+}
